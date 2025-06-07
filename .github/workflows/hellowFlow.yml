@@ -3,6 +3,7 @@ name: Hello Flow
 on:
   schedule:
     - cron: '* * * * *'
+  workflow_dispatch:
 
 jobs:
   first-job:
