@@ -6,7 +6,7 @@ on:
 
 jobs:
   first-job:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Diga oi
         run: echo "Hello World!"
