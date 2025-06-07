@@ -1,13 +1,11 @@
 name: Hello Flow
 
 on:
-  schedule:
-    - cron: '* * * * *'
-  workflow_dispatch:
+  push:
 
 jobs:
   first-job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Diga oi
         run: echo "Hello World!"
